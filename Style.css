@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+    background: #fff url(./Assets/fundo-cobrecom.png) repeat-x;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.topo {
+    height: 150px;
+    background: url(./Assets/cabos.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(./Assets/logo-cobrecom-amarelo.svg) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topo ul {
+     background: #ffd900;
+     margin-top: 30px;
+     border-radius: 5px;
+     float: left;
+}
+
+.topo ul li {
+    float: left;
+}
+
+.topo ul li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #00307A;
+    background: url(./Assets/divisor.png) no-repeat left center;
+    transition: all 0.3s;
+}
+
+.topo ul .primeiro a {
+    background-color: none;
+}
+
+.topo ul a:hover {
+    color: #00307A;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+body.home .navbar a#home,
+body.sobre-nos .navbar a#sobre-nos,
+body.produtos .navbar a#produtos,
+body.Representantes .navbar a#Representantes,
+body.marketing .navbar a#marketing,
+body.contato .navbar a#contato,
+body.fotos .navbar a#fotos {
+    color: #00307A;
+    background: #ffe640;
+    border-radius: 5px;
+    cursor: text;
+    font-weight: bold;
+}
+
+.conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+.conteudo .lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.lateral ul a {
+    font-size: 0.7em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lateral ul a:hover {
+    background: #f9f9f9 url(./Assets/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+.primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas .primario {
+    width: 555px;
+
+}
+
+#uma-coluna .primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+
+.conteudo .segundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(./Assets/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #00307A;
+    color: #ffd900;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.7em;
+    background: #fff;
+    border: 2px solid #f3f3f3;
+}
+
+input.submit {
+    width: 80px;
+    color: #ffd900;
+    background: #00307A;
+    border: 2px solid #022558;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 98%;
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    color: #022558;
+}
+
+.leia-mais {
+    color: #ffd900;
+}
+
+.caixa-conteudo p {
+    font-size: 0.8em;
+    display: block;
+    line-height: 30px;
+    color: #000;
+}
+
+.lista-produtos li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+.lista-produtos li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.tabelas img {
+    width: 120px;
+    display: block;
+}
+
+.container-rodape {
+    background: #00307A;
+    padding: 20px;
+}
+.rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
