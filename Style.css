@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', helvetica, sans-serif;
-    background: #fff url(./Assets/fundo-cobrecom.png) repeat-x;
+    background: #fff url(./src/fundo-cobrecom.png) repeat-x;
 }
 
 .container {
@@ -15,14 +15,14 @@ body {
 
 .topo {
     height: 150px;
-    background: url(./Assets/cabos.png) no-repeat right top;
+    background: url(./src/cabos.png) no-repeat right top;
     padding-top: 25px;
 }
 
 .logo {
     width: 152px;
     height: 66px;
-    background: url(./Assets/logo-cobrecom-amarelo.svg) no-repeat center;
+    background: url(./src/logo-cobrecom-amarelo.svg) no-repeat center;
     text-indent: -3000px;
 }
 
@@ -50,7 +50,7 @@ ul {
     line-height: 2.1em;
     text-decoration: none;
     color: #00307A;
-    background: url(./Assets/divisor.png) no-repeat left center;
+    background: url(./src/divisor.png) no-repeat left center;
     transition: all 0.3s;
 }
 
@@ -100,7 +100,7 @@ body.fotos .navbar a#fotos {
 }
 
 .lateral ul a:hover {
-    background: #f9f9f9 url(./Assets/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(./src/marcador.png) no-repeat left center;
     padding-left: 20px;
     color: #a1a1a1;
 }
@@ -130,7 +130,7 @@ body.fotos .navbar a#fotos {
 .caixa {
     margin: 10px 0;
     padding: 5px;
-    background: #f3f3f3 url(./Assets/fundo-caixa.png);
+    background: #f3f3f3 url(./src/fundo-caixa.png);
 }
 
 h2 {
